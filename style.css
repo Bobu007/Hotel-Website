@@ -1,0 +1,357 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* nav section  */
+
+.container {
+    width: 98%;
+    margin: 0 auto;
+    display: flex;
+}
+
+
+#nav .container {
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0px;
+}
+
+#nav .container ul:first-child {
+    list-style-type: none;
+}
+
+#nav .container ul:last-child {
+    list-style-type: none;
+    display: flex;
+
+}
+
+#nav .container ul:last-child li {
+    padding: 10px 0px;
+    margin-left: 35px;
+}
+
+#nav .container ul:last-child li a {
+    text-decoration: none;
+    color: gray;
+
+    transition: .5s;
+}
+
+#nav .container ul:last-child li a:hover {
+    color: rgba(0, 0, 0, 0.8);
+}
+
+/* nav section end  */
+
+/* card section  */
+#card {
+    margin-bottom: 200px;
+}
+
+#card .container .card-container {
+    width: 100vw;
+    height: 75vh;
+    background-image: linear-gradient(94deg, rgba(0, 0, 0, 0.9) 12%,
+            rgba(244, 244, 247, 0.2) 85%),
+        url(./image/header.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 30px;
+    display: flex;
+    position: relative;
+}
+
+#card .container .card-container div {
+    width: 50%;
+    height: 100%;
+
+}
+
+#card .container .card-container div:first-child {
+    padding: 60px 30px;
+}
+
+#card .container .card-container div:first-child h1 {
+    font-size: 60px;
+    color: rgba(255, 255, 255, 0.9);
+    margin-bottom: 20px;
+}
+
+#card .container .card-container div:first-child p {
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+#card .container .card-container div:last-child {
+    width: 95%;
+    height: 30%;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 30px;
+    display: flex;
+
+    box-shadow: 2px 5px 80px black;
+    position: absolute;
+    bottom: -80px;
+    left: 34px;
+
+}
+
+#card .container .card-container div:last-child ul {
+    padding: 30px 0px 30px 20px;
+    list-style-type: none;
+    text-align: center;
+    width: 22%;
+
+}
+
+#card .container .card-container div:last-child ul li {
+    padding: 10px 0px;
+}
+
+#card .container .card-container div:last-child ul li:first-child {
+    border-bottom: 1px solid black;
+}
+
+#card .container .card-container div:last-child ul li input {
+    margin: 0px 0px 0px -82px;
+    border: none;
+    background-color: transparent;
+    outline: none;
+
+}
+
+::placeholder {
+    color: black;
+    font-size: 15px;
+    font-weight: 20px;
+}
+
+#card .container .card-container div:last-child ul li p {
+    float: left;
+    color: gray;
+}
+
+#card .container .card-container div:last-child .last {
+    border: none;
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    margin: 40px auto;
+    background-color: black;
+
+    position: relative;
+
+}
+
+#card .container .card-container div:last-child .last li {
+    border-bottom: none;
+    display: flex;
+    justify-items: center;
+    margin-bottom: 30px;
+
+    position: absolute;
+    top: 10px;
+    left: 18px;
+
+}
+
+#card .container .card-container div:last-child .last i {
+    color: white;
+    font-size: 20px;
+}
+
+/* card section end  */
+
+/* hotel-Card section  */
+
+#hotel-card {
+    margin-bottom: 80px;
+}
+
+#hotel-card h1 {
+    width: 100%;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+#hotel-card .container {
+    flex-wrap: wrap;
+}
+
+#hotel-card .container>div {
+    width: 30%;
+    height: 23vw;
+    margin: 15px auto;
+    border-radius: 15px;
+    box-shadow: 2px 2px 50px gray;
+
+
+}
+
+#hotel-card .container>div img {
+    width: 100%;
+    border-radius: 15px 15px 0px 0px;
+    display: block;
+
+
+}
+
+#hotel-card .container>div div:last-child {
+    margin: 5px 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#hotel-card .container>div div:last-child h3 {
+    font-size: 25px;
+
+}
+
+#hotel-card .container>div div:last-child p {
+    margin-top: 10px;
+    color: gray;
+    font-weight: normal;
+}
+
+
+
+/* hotel-Card end  */
+
+/* review section  */
+
+#review {
+    background-color: #F3F4F6;
+    padding: 70px 0;
+}
+
+#review h1 {
+    width: 100%;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+#review .container>div {
+    width: 30%;
+    height: 23vw;
+    margin: auto;
+    border-radius: 15px;
+    box-shadow: 2px 2px 50px gray;
+    padding: 30px 80px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#review .container>div img {
+    border: 1px solid red;
+
+    width: 90px;
+    height: 90px;
+    border-radius: 50px;
+
+    margin-bottom: 30px;
+
+}
+
+#review .container>div p {
+    line-height: 25px;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+/* review section end  */
+
+/* discount section  */
+#discount {
+    margin: 90px 0px;
+}
+
+#discount .container {
+    box-shadow: 2px 2px 50px gray;
+    border-radius: 40px;
+
+}
+
+#discount .container>div {
+    width: 40%;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+#discount .container>div p {
+    margin: 20px 0;
+    font-size: 20px;
+
+}
+
+#discount .container>div h2 {
+    width: 80%;
+    font-size: 35px;
+    text-align: center;
+}
+
+#discount .container>div button {
+    padding: 10px 40px;
+    margin: 20px 0;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+
+/* discount section end  */
+
+/* footer section  */
+#footer {
+    background-color: #F3F4F6;
+    padding: 80px 0;
+}
+
+#footer .container>div {
+    width: 40%;
+    padding: 15px 40px;
+
+}
+
+#footer .container>div h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+#footer .container>div p {
+    line-height: 23px;
+    opacity: 0.7;
+}
+
+#footer .container>div ul {
+    list-style-type: none;
+}
+
+#footer .container>div ul li a {
+    text-decoration: none;
+    color: black;
+    opacity: 0.7;
+    line-height: 35px;
+
+}
+
+#footer .container>div ul li a:hover {
+    opacity: 1;
+}
+
+/* footer section end  */
